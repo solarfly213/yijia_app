@@ -4,6 +4,7 @@ import '../../../core/constants/colors.dart';
 import '../../../core/constants/strings.dart';
 import '../../../core/theme/app_theme.dart';
 import '../../blocs/settings/settings_bloc.dart';
+import '../../blocs/training/training_bloc.dart';
 
 /// 设置页面
 class SettingsPage extends StatelessWidget {

@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:image_picker/image_picker.dart';
@@ -7,6 +8,8 @@ import '../../../core/theme/app_theme.dart';
 import '../../../domain/entities/family_member.dart';
 import '../../blocs/family/family_bloc.dart';
 import '../../widgets/gradient_card.dart';
+import 'photo_matching_game.dart';
+import 'photo_story_page.dart';
 
 /// 照片回忆页面
 class PhotoMemoryPage extends StatefulWidget {
@@ -595,6 +598,4 @@ class _PhotoMemoryPageState extends State<PhotoMemoryPage> {
 }
 
 // 导入需要的类
-import 'dart:io';
-import 'photo_matching_game.dart';
-import 'photo_story_page.dart';
+

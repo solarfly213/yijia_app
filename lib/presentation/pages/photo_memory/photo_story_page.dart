@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../../../core/constants/colors.dart';
 import '../../../core/constants/strings.dart';
 import '../../../core/theme/app_theme.dart';
+import '../../blocs/training/training_bloc.dart';
 
 /// 照片故事页面 - 引导用户讲述照片故事
 class PhotoStoryPage extends StatefulWidget {
@@ -233,6 +234,3 @@ class _PhotoStoryPageState extends State<PhotoStoryPage> {
     );
   }
 }
-
-// 导入 TrainingBloc
-import '../../blocs/training/training_bloc.dart';

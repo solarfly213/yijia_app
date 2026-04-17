@@ -193,7 +193,7 @@ class _NumberQuizPageState extends State<NumberQuizPage> {
             ),
             const SizedBox(height: 16),
             Text(
-              '答对 $_correctAnswers / $totalQuestions 题',
+              '答对 $_correctAnswers / $_totalQuestions 题',
               style: const TextStyle(fontSize: 18),
             ),
           ],

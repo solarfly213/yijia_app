@@ -243,6 +243,11 @@ class HomePage extends StatelessWidget {
   }) {
     return GradientCard(
       onTap: onTap,
+      gradient: LinearGradient(
+        begin: Alignment.topLeft,
+        end: Alignment.bottomRight,
+        colors: [color, color.withOpacity(0.7)],
+      ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
